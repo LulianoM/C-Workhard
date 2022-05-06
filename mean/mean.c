@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main() {
-  int x;
-  int y;
+int main(x, y)
+{
+  float x;
+  float y;
 
   printf("Primeiro valor: ");
   scanf("%d", &x);
@@ -10,6 +11,6 @@ int main() {
   printf("Segundo valor: ");
   scanf("%d", &y);
 
-  float m = x/y;
-  printf("A multiplicacao de %d por %d eh igual a %f\n", x, y, m);
+  float m = x / y;
+  printf("A multiplicacao de %f por %f eh igual a %f\n", x, y, m);
 }
